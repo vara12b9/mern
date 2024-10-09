@@ -10,17 +10,7 @@
 //      {/* {
 //       changevalFUN(){
 
-// import A from "./components/functional Components/State/GlobalState/React-Redux/ReactComponents1/A"
-
-
-import A from "./components/functional Components/State/Sync-Data/GlobalState/React-Redux/ReactComponent/ReactComponent1/A"
-
-// import A from "./components/functional Components/State/Sync-Data/GlobalState/React-Redux/ReactComponent/ReactComponent1/A"
-
-
-
-
-// import A from "./components/functional Components/State/GlobalState/ContextAPI/A"
+import A from "./components/functional Components/State/GlobalState/ContextAPI/A"
 
 // import A from "./components/functional Components/State/LocalState/PropsDrilling/A"
 
@@ -42,15 +32,13 @@ import A from "./components/functional Components/State/Sync-Data/GlobalState/Re
 // import Parent from "./components/functional Components/props/child to child/Parent"
 // import A from "./components/functional Components/State/LocalState/SimpleData/A"
 // import A from "./components/functional Components/State/LocalState/StateLifting/A"
-// import A from './components/functional Components/State/Sync-Data/GlobalState/React-Redux/ReactComponent/A';
+
 function Hai(){
     return <p>
         {/* <h1>Hello this is app component</h1> */}
     {/* // <h1>This is second app cpomponent</h1> */}
     
         {/* <Parent/> */}
-        {/* <A/> */}
-        {/* <A/> */}
         {/* <A/> */}
         {/* <A/> */}
         {/* <A/> */}
