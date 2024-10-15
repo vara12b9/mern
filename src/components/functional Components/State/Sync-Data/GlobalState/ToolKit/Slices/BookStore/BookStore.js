@@ -1,19 +1,19 @@
-import { createSlice } from "@reduxjs/toolkit" 
+import { createSlice } from '@reduxjs/toolkit';
 var cakeValue = {
-  value:100
-}
+  value: 100,
+};
 
- var cakeSlice = createSlice({
+var cakeSlice = createSlice({
   name: 'cake',
   initialState: cakeValue,
   reducers: {
     increase: (state) => {
-       state.value +=1;
+      state.value += 1;
     },
     decrease: (state) => {
-      state.value -=1;
-    }
-  }
+      state.value -= 1;
+    },
+  },
 });
 
 export var { increase, decrease } = cakeSlice.actions;

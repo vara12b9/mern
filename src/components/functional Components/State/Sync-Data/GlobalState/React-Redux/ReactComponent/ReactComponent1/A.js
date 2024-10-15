@@ -4,6 +4,7 @@ import React from 'react'
 import {Provider} from "react-redux"
 import { store } from '../../../ToolKit/Store'
 import D from './D';
+import E from './E';
 
 function A() {
   console.log("hello from A")
@@ -14,7 +15,8 @@ function A() {
       
       <Provider store={store}>
       
-       <D/>
+        <D />
+        <E/>
       </Provider>
       
     </div>
