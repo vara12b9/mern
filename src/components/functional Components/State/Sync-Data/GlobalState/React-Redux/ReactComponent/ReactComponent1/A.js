@@ -14,7 +14,7 @@ function A() {
       
       
       <Provider store={store}>
-      
+       
         <D />
         <E/>
       </Provider>

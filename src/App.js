@@ -1,9 +1,11 @@
 
 // import A from "./components/functional Components/State/Sync-Data/GlobalState/ContextAPI-UseReducer/A"
 
-import A from "./components/functional Components/Performance/Fragment/A"
+import A from "./components/functional Components/Performance/ConditionalRendering/A"
 
+// import A from "./components/functional Components/Performance/Fragment/A"
 
+// import Index from "./projects/calculator/Index"
 // import A from "./components/functional Components/Mis_concepts/Destructure/A"
 
 function Hai(){
@@ -11,7 +13,9 @@ function Hai(){
         {/* <h1>Hello this is app component</h1> */}
     {/* // <h1>This is second app cpomponent</h1> */}
     
-    <A/>
+        {/* <A/> */}
+        {/* <Index/> */}
+        <A/>
     </p>
 }
 
