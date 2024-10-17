@@ -1,0 +1,24 @@
+.model-overlay{
+  position: absolute;
+  top:0px;
+  left: 0px;
+  width: 1000px;
+  height: 300px;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content{
+  background-color: white;
+  border-radius: 20px;
+  width: 600px;
+  padding: 15px;
+  color: orange;
+
+}
+.btn{
+  background-color: red;
+  
+}
