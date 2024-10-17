@@ -5,12 +5,12 @@ import Usecount from './CustomHooks/Usecount'
 
 function A() {
   // var [count,setCount]=useState(0)
-  var [count,Increase,Decrease]=Usecount()
+  var [count,Change]=Usecount()
   return (
     <div>A
       <h1>count:{count}</h1>
-      <button onClick={() => { Increase() }}>increase</button>
-      <button onMouseEnter={()=>{Decrease()}}>decrease</button>
+      <button onClick={() => { Change(count+1) }}>increase</button>
+      <button onMouseEnter={()=>{Change(count-1)}}>decrease</button>
       <B />
       <C/>
     </div>
